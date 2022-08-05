@@ -10,6 +10,17 @@ function MapsGen(subjectCount, sessionCount, destinationFolder, names)
 %sessionCount: nr of sessions, 3 in the above example
 %destinationFolder: Start folder
 %names   Cell array eg {'megapress-ref','megapress', '...'}
+%
+%Result:
+%
+%-sub-01
+%--+ses-01
+%--+ses-02
+%---ses-03
+%-----anat
+%-----mrs
+%-------sub-01_ses-03_megapress
+%-------sub-01_ses-03_megapress-ref
 
 folderCount = 1;
 
